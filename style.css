@@ -1,0 +1,137 @@
+ Reset some default styles
+ body, h1, h2, h3, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+header {
+    background: #a2caac;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.body {
+    scrollbar-width: none; /* Hides the scrollbar */
+  }
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-image: linear-gradient(to right, #067c5f, #a7005c);
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 40px 20px;
+    background: #70b982;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem; /* Responsive font size */
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero img {
+    max-width: 80px; /* Smaller image for mobile */
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e63946;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.services-grid, .portfolio-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service, .portfolio-item {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.service img, .portfolio-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #e63946;
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
